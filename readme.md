@@ -16,7 +16,7 @@ Next, update app/config/app.php to include a reference to this package's service
 Add the alias
 
     'aliases' => [
-        'Chencha\Autosuggest\Facades\Autosuggest'
+        'Autosuggest'=>'Chencha\Autosuggest\Facades\Autosuggest'
     ]
     
 ##Usage

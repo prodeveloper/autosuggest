@@ -6,7 +6,7 @@ use Chencha\Autosuggest\Values\Word;
 
 interface SuggestWords
 {
-    function check(Word $word);
+    function check($word);
 
-    function suggestions(Word $word);
+    function suggestions( $word);
 } 

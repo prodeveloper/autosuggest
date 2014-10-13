@@ -1,6 +1,8 @@
 <?php
 
 namespace Chencha\Autosuggest\Values;
+use Chencha\Autosuggest\Services\CheckValidWord;
+
 class Word
 {
 
@@ -9,6 +11,7 @@ class Word
     function __construct($word)
     {
         $this->word = $word;
+        new CheckValidWord($word);
     }
 
     function __toString()

@@ -29,23 +29,22 @@ class Pspell implements SuggestWords
         $this->pspellConfiguration = $pspellConfiguration;
     }
     /**
-     * @param Word $word
+     * @param string $word
      * @return bool
      */
-    function check(Word $word)
+    function check($word)
     {
-        //dd($this->pspellConfiguration->getDictionary());
-        return pspell_check($this->pspellConfiguration->getDictionary(), $word);
+        return pspell_check($this->pspellConfiguration->getDictionary(), new Word($word));
     }
 
 
     /**
-     * @param Word $word
+     * @param string $word
      * @return array
      */
-    function suggestions(Word $word)
+    function suggestions($word)
     {
-        return pspell_suggest($this->pspellConfiguration->getDictionary(),$word);
+        return pspell_suggest($this->pspellConfiguration->getDictionary(),new Word($word));
 
     }
 }

@@ -1,6 +1,7 @@
 {
     "name": "chencha/autosuggest",
-    "description": "",
+    "description": "Library to quickly check and provide suggestions for words",
+    "license": "MIT",
     "authors": [
         {
             "name": "Chencha Jacob",

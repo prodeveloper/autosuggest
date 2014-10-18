@@ -1,7 +1,7 @@
 <?php
 
 namespace Chencha\Autosuggest\Values;
-use Chencha\Autosuggest\Services\CheckValidWord;
+use Chencha\Autosuggest\Validators\CheckValidWord;
 
 class Word
 {

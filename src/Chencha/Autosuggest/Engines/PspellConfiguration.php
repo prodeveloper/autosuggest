@@ -10,7 +10,7 @@ namespace Chencha\Autosuggest\Engines;
 
 use Chencha\Autosuggest\Domain\Config;
 use Chencha\Autosuggest\Domain\Dictionary;
-use Chencha\Autosuggest\Services\CheckPspellIsInstalled;
+use Chencha\Autosuggest\Validators\CheckPspellIsInstalled;
 use  Chencha\Autosuggest\Engines\PspellLoadSetConfigurations;
 
 class PspellConfiguration implements  Dictionary

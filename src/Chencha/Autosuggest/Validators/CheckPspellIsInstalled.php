@@ -6,7 +6,7 @@
  * Time: 03:10
  */
 
-namespace Chencha\Autosuggest\Services;
+namespace Chencha\Autosuggest\Validators;
 
 
 use Chencha\Autosuggest\Exceptions\PspellIsNotInstalled;

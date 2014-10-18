@@ -6,7 +6,7 @@
  * Time: 13:00
  */
 
-namespace Chencha\Autosuggest\Services;
+namespace Chencha\Autosuggest\Validators;
 
 
 use Chencha\Autosuggest\Exceptions\InvalidWordProvided;
